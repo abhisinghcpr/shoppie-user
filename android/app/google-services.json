@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "647843157506",
+    "project_id": "shoppieecomerc",
+    "storage_bucket": "shoppieecomerc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647843157506:android:ecc3ef11d86ceb082af91b",
+        "android_client_info": {
+          "package_name": "com.edugaon.shoppie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647843157506-0ftf33opj6isfkj7k3b8gvd0bl88qcql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edugaon.shoppie",
+            "certificate_hash": "629e351074d3d4c51ad9fddb0fa26a299add97fc"
+          }
+        },
+        {
+          "client_id": "647843157506-4dbkn4gpeejnc2uidt128anbtgrv19g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWlVREhJAaJeRVqKOkkEIQQfYkMR4lYhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647843157506-4dbkn4gpeejnc2uidt128anbtgrv19g4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "647843157506-kmh5lk216676rq865g8nua7g4i0buf67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.edugaon.shoppie.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
