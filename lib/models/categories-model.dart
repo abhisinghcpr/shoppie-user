@@ -23,7 +23,7 @@ class CategoriesModel {
       'updatedAt': updatedAt,
     };
   }
-
+  
   factory CategoriesModel.fromMap(Map<String, dynamic> json) {
     return CategoriesModel(
       categoryId: json['categoryId'],

@@ -23,7 +23,6 @@ class AddCustomer {
           decoration: InputDecoration(
             hintText: text,
             labelText: text1,
-
             prefixIcon: Icon(icon),
             contentPadding: EdgeInsets.only(top: 2.0, left: 8.0),
             border: OutlineInputBorder(

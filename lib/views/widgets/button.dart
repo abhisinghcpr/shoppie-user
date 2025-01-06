@@ -22,9 +22,9 @@ class _ButtonState extends State<Button> {
         foregroundColor: Colors.white,
         backgroundColor: Colors.blue,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20), // Rounded corners
+          borderRadius: BorderRadius.circular(20),
         ),
-        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10), // Button padding
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       ),
     );
   }

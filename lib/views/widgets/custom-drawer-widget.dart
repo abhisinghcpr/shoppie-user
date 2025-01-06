@@ -30,7 +30,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
       phone: '',
       userImg: '',
       userDeviceToken: '',
-      createdOn: null,
+    //  createdOn: null,
       city: '');
 
   @override

@@ -41,7 +41,7 @@ class GoogleSignInController extends GetxController {
             phone: '8521616449',
             userImg: user.photoURL ?? '',
             userDeviceToken: getDeviceTokenController.deviceToken ?? '',
-            createdOn: DateTime.now(),
+           // createdOn: DateTime.now(),
             city: 'Amnour',
           );
 

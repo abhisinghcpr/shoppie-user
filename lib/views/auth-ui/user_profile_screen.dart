@@ -24,7 +24,7 @@ class _ProfileScreensState extends State<ProfileScreens> {
     phone: '',
     userImg: '',
     userDeviceToken: '',
-    createdOn: null,
+    //createdOn: null,
     city: '',
   );
 

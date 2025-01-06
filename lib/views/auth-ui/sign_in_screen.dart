@@ -6,14 +6,14 @@ import '../utils/app-constant.dart';
 import '../widgets/singup_widgits.dart';
 import 'sign_up_screen.dart';
 
-
 class SignInScreen extends StatelessWidget {
   final AuthController authController = Get.put(AuthController());
   final TextEditingController userEmail = TextEditingController();
   final TextEditingController userPassword = TextEditingController();
 
   final GoogleSignInController _googleSignInController =
-  Get.put(GoogleSignInController());
+      Get.put(GoogleSignInController());
+
   @override
   Widget build(BuildContext context) {
     var view = AddCustomer(context: context);
@@ -26,7 +26,9 @@ class SignInScreen extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
-        child: Column(
+
+
+  child: Column(
           children: [
             SizedBox(height: 40),
             Column(
@@ -72,8 +74,6 @@ class SignInScreen extends StatelessWidget {
                 ),
               ),
             ),
-
-
             SizedBox(
               height: 10,
             ),
@@ -81,8 +81,6 @@ class SignInScreen extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-
-
             Material(
               child: Center(
                 child: Container(
@@ -103,13 +101,15 @@ class SignInScreen extends StatelessWidget {
                       style: TextStyle(color: AppConstant.appTextColor),
                     ),
                     onPressed: () {
-                        _googleSignInController.signInWithGoogle();
+                      _googleSignInController.signInWithGoogle();
                     },
                   ),
                 ),
               ),
             ),
-            SizedBox(height: 20,),
+            SizedBox(
+              height: 20,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -127,9 +127,7 @@ class SignInScreen extends StatelessWidget {
                     style: TextStyle(
                         color: Colors.blue, fontWeight: FontWeight.bold),
                   ),
-
                 ),
-
               ],
             ),
           ],

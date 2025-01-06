@@ -122,7 +122,7 @@ class ProductDetailsController extends GetxController {
                 productModel.toMap(),
               );
           Fluttertoast.showToast(
-            msg: " added to Favorite",
+            msg: "Add to Favorite",
             toastLength: Toast.LENGTH_SHORT,
             gravity: ToastGravity.BOTTOM,
             timeInSecForIosWeb: 1,
@@ -161,4 +161,5 @@ class ProductDetailsController extends GetxController {
       print("Error checking favorite existence: $e");
     }
   }
+
 }

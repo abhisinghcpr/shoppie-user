@@ -122,8 +122,6 @@ class _CartScreenState extends State<CartScreen> {
                                 image:CachedNetworkImageProvider(
                                     cartModel.productImages[0]
                                 )
-
-
                               ),
                             ),
                           ),

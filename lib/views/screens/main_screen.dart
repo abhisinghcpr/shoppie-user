@@ -13,7 +13,6 @@ class MainScreenContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return RefreshIndicator(
       onRefresh: () {
-        // Implement your refresh logic here
         return Future.delayed(Duration(seconds: 1));
       },
       child: ListView(
@@ -24,6 +23,7 @@ class MainScreenContent extends StatelessWidget {
                 height: MediaQuery.of(context).size.height / 90.0,
               ),
               //banners
+              BannerWidget(),
 
               HeadingWidget(
                 headingTitle: "Categories",

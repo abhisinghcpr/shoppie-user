@@ -172,7 +172,7 @@ class ProfileController extends GetxController {
     phone: '',
     userImg: '',
     userDeviceToken: '',
-    createdOn: null,
+    //createdOn: null,
     city: '',
   );
 

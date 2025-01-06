@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -10,7 +9,7 @@ class AuthController extends GetxController {
 
   Future<void> signInWithEmailAndPassword(String email, String password) async {
     try {
-      EasyLoading.show(); // Show loading indicator
+      EasyLoading.show();
       await _auth.signInWithEmailAndPassword(email: email, password: password);
       Get.snackbar(
         "Success",
@@ -18,8 +17,7 @@ class AuthController extends GetxController {
         backgroundColor: Colors.green,
         colorText: Colors.white,
       );
-      // Navigate to another screen after successful sign-in
-      Get.offAll(MainScreen()); // Replace MainScreen() with your desired destination screen
+      Get.offAll(MainScreen());
     } catch (e) {
       Get.snackbar(
         "Error",
@@ -28,7 +26,7 @@ class AuthController extends GetxController {
         colorText: Colors.white,
       );
     } finally {
-      EasyLoading.dismiss(); // Hide loading indicator
+      EasyLoading.dismiss();
     }
   }
 }
